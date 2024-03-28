@@ -12,6 +12,9 @@ def encrypt(plaintext, k):
             encrypted_text.append(letter)
     encrypted_word = ''.join(encrypted_text)
     return(encrypted_word)
-
+# example test case
 encrypt('attack at dawn', 5)
+
+#output: voovxf vo yvri
+
 
